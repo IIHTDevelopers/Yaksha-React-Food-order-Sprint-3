@@ -1,0 +1,23 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Onion Pizza",
+      "image": "https://images.pexels.com/photos/7813577/pexels-photo-7813577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "ratings": 3.4,
+      "type": "veg",
+      "available": true,
+      "price": 300
+    },
+    {
+      "id": 2,
+      "name": "Masala Dosa",
+      "image": "https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa-500x375.jpg",
+      "ratings": 4.2,
+      "type": "veg",
+      "available": true,
+      "price": 120
+    }
+  ],
+  "orders": []
+}
