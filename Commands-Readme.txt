@@ -6,7 +6,7 @@
 
 	npm run json-server -> to deploy fake rest api created with json-server -> takes 10 to 15 seconds
 
-	npm run test -> to run all test cases. It is mandatory to run this command before submission of workspace -> takes 5 to 6 min  
+	npm run jest -> to run all test cases. It is mandatory to run this command before submission of workspace -> takes 5 to 6 min  
 
 * You may also run “npm run test” while developing the solution to re-factor the code to pass the test-cases.
 
