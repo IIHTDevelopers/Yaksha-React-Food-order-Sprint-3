@@ -4,7 +4,7 @@
 
 	npm run start -> To compile and deploy the project in browser. You can press <Ctrl> key while clicking on localhost:4200 to open project in browser -> takes 2 to 3 min
 
-	npm run json-start -> As we are using a json server to mimic our db.json file as a database. So, this command is useful to start a json server.
+	npm run json-server -> As we are using a json server to mimic our db.json file as a database. So, this command is useful to start a json server.
 	
 	npm run test -> to run all test cases. It is mandatory to run this command before submission of workspace -> takes 5 to 6 min  
 
