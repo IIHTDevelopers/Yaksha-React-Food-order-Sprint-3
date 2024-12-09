@@ -27,7 +27,7 @@ describe('ComponentTest', () => {
     expect(component.container).toBeDefined();
   });
 
-  it(functionalTestName + ' should contain email default value as empty string', async () => {
+  it(functionalTestName + ' should contain email field with id attribute with value email and having default value as empty string', async () => {
     await waitFor(() => {
       let emailElement = component.container.querySelector(`input[id='email']`);
 
@@ -36,7 +36,7 @@ describe('ComponentTest', () => {
     })
   })
 
-  it(functionalTestName + ' should contain email as a required field', async () => {
+  it(functionalTestName + ' should contain email field with id attribute with value email and as a required field', async () => {
     await waitFor(() => {
       let emailElement = component.container.querySelector(`input[id='email']`);
 
@@ -44,7 +44,7 @@ describe('ComponentTest', () => {
     })
   })
 
-  it(functionalTestName + ' should contain phone default value as empty string', async () => {
+  it(functionalTestName + ' should contain phone field with id attribute with value phone and having default value as empty string', async () => {
     await waitFor(() => {
       let phoneElement = component.container.querySelector(`input[id='phone']`);
 
@@ -53,7 +53,7 @@ describe('ComponentTest', () => {
     })
   })
 
-  it(functionalTestName + ' should contain phone as a required field', async () => {
+  it(functionalTestName + ' should contain phone field with id attribute with value phone and as a required field', async () => {
     await waitFor(() => {
       let phoneElement = component.container.querySelector(`input[id='phone']`);
 
@@ -61,7 +61,7 @@ describe('ComponentTest', () => {
     })
   })
 
-  it(functionalTestName + ' should contain phone as a required field', async () => {
+  it(functionalTestName + ' should contain phone field with id attribute with value phone and as a required field', async () => {
     await waitFor(() => {
       let phoneElement = component.container.querySelector(`input[id='phone']`);
 
@@ -70,7 +70,7 @@ describe('ComponentTest', () => {
   })
 
 
-  it(functionalTestName + ' should contain quantity default value as 1', async () => {
+  it(functionalTestName + ' should contain quantity field with id attribute with value quantity and having default value as 1', async () => {
     await waitFor(() => {
       let quantityElement = component.container.querySelector(`input[id='quantity']`);
 
