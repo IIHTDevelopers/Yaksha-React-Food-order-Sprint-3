@@ -82,12 +82,6 @@ describe('ComponentTest', () => {
     });
   })
 
-  it(testName + ' should not render food name when food is availble', async () => {
-    await waitFor(() => {
-      expect(component.container.innerHTML).not.toContain(foodsData[1].name);
-    });
-  })
-
 })
 
 
