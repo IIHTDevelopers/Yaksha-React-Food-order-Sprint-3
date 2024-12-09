@@ -24,11 +24,11 @@ describe('boundary', () => {
   });
 
 
-  it(testName + ' should render orders mobile', async () => {
+  it(testName + ' should render orders phone', async () => {
     await waitFor(() => {
       expect(component).toBeDefined();
       expect(component.container).toBeDefined();
-      expect(component.container.innerHTML).toContain(orders[0].mobile);
+      expect(component.container.innerHTML).toContain(orders[0].phone);
     });
   })
 
